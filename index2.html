@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Periódico Libertadores de América</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon">
+</head>
+<body>
+    <header>
+        <h1>Periódico Libertadores de América</h1>
+        <nav>
+            <ul>
+                <li><a href="#home">Início</a></li>
+                <li><a href="#news">Curiosidades</a></li>
+                <li><a href="#about">Campeones</a></li>
+                <li><a href="#contact">Acceso</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section id="home">
+            <h2>Bienvenidos al Diario Libertadores de América</h2>
+            <p>El portal de noticias que presenta información diversa sobre la competición de clubes más grande de Sudamérica.</p>
+        </section>
+        <section id="news">
+            <h2>curiosidades</h2>
+            <article id="noticia-1">
+                <h3>¿Y la Taza, dónde surgió?</h3>
+                <p class="conteudo-curto">El trofeo de la Libertadores se creó en 1959, un año antes de la primera edición del torneo en 1960... <button onclick="mostrarMais(1)">leer más</button></p>
+                <p class="conteudo-completo" style="display: none;">El trofeo de la Libertadores se creó en 1959, un año antes de la primera edición del torneo en 1960. El responsable de su diseño fue Alberto Gasperini, un diseñador italiano que vivía en Perú y trabajaba en una tienda de artesanías llamada Prataria Camusso. La primera versión del trofeo solo tenía la parte superior que conocemos hoy, sin la base de madera, y medía 63 centímetros de altura. En la parte superior, había una figura de bronce que representaba a un jugador de fútbol preparándose para dar el saque inicial con la pierna derecha. <br>
+                    Debajo del jugador, había una esfera con los 10 escudos de los países miembros de la CONMEBOL y la inscripción “Campeonato de Campeones de Sudamérica”, que era el nombre original del torneo. Las "orejas" del trofeo tenían escaleras internas que simbolizaban el estadio, las gradas y el campo. En 1967, el trofeo recibió la base de madera con las placas de los campeones de cada edición. Estas placas eran hechas por los propios clubes, sin un estándar establecido por la CONMEBOL. Por ejemplo, las placas de Boca Juniors de 1977 y 1978 son de oro, mientras que la mayoría son de bronce o plata. La placa más grande es la de LDU de 2008. La de Grêmio de 1981 es la única que tiene un borde con los colores del equipo. La base donde se fijaban las placas era inicialmente de color negro y cambió a marrón en 1982.
+                     <button onclick="mostrarMenos(1)">leer menos</button></p>
+            </article>
+            <article id="noticia-2">
+                <h3>Formato actual:</h3>
+                <p class="conteudo-curto">Al principio, solo participaban los campeones de liga, hasta la edición de 1962, cuando se incluyó al ganador de la última copa... <button onclick="mostrarMais(2)">leer más</button></p>
+                <p class="conteudo-completo" style="display: none;">Al principio, solo participaban los campeones de liga, hasta la edición de 1962, cuando se incluyó al ganador de la última copa. En 1965, el torneo pasó a llamarse Copa Libertadores de América, y en la siguiente edición ya no solo se clasificaban los campeones, sino también otro equipo de cada país (generalmente los subcampeones), una idea propuesta por la Asociación Uruguaya de Fútbol. Más tarde, se ampliaría y empezarían a participar otros clubes. <br>
+                    <br>
+                    En 2017, la copa, ahora llamada Conmebol Libertadores, tuvo varios cambios, entre los que se destacan la modificación en el calendario de disputa y el aumento en el número de equipos participantes: 47 clubes, siendo esta la edición con más equipos en la historia del torneo.
+                    Se clasifican los campeones y los mejores equipos de los torneos de la temporada anterior de cada país, además de los campeones actuales de esta copa y de la Copa Sudamericana. <br>  
+                  <br>
+                    <b>Playoffs :</b><br>
+                    De los 47 equipos que participan, 6 comenzarán en una primera fase. Se enfrentarán en 3 llaves de eliminación directa, con partidos de ida y vuelta. Los ganadores avanzarán a la siguiente ronda. Si hay empate, se clasifica el equipo con más goles de visitante; si persiste el empate, se irán a penales. Los equipos provienen de Bolivia, Ecuador, Paraguay, Perú, Uruguay y Venezuela.
+                    Los 3 equipos que avanzaron se unirán a otros 13, formando 16 en total. Se organizarán en 8 llaves de eliminación directa, también con partidos de ida y vuelta. Esta fase incluye equipos de Brasil, Chile, Colombia, Argentina, Bolivia, Ecuador, Paraguay, Perú, Uruguay y Venezuela.
+                    Los 8 equipos clasificados de la ronda anterior se enfrentarán en 4 llaves, con partidos de ida y vuelta. De aquí saldrán 4 equipos que se unirán a los 32 participantes de la etapa de grupos.  <br>
+                    <br>
+                    <b>Fase de Grupos :</b><br>
+                    Los 32 clasificados se dividirán en 8 grupos de 4 equipos cada uno. Incluyen 4 ganadores de la tercera fase, el campeón vigente de la Copa Libertadores, el campeón de la Copa Sudamericana, y varios equipos de diferentes países de Sudamérica. Los dos primeros de cada grupo avanzan a los octavos de final, mientras que los terceros pasan a la Copa Sudamericana.  <br>
+                    <br>
+                    <b>Fase de eliminación :</b><br>
+                    Los 16 equipos que llegan a la fase de grupos jugarán los octavos de final, en 8 llaves de eliminación directa. Se hará un sorteo para definir los enfrentamientos entre los equipos que terminaron primeros y segundos en sus grupos. <br>
+                    <br>
+                    Los dos ganadores de las semifinales disputarán dos partidos por el título. Si hay empate, se considera el equipo con mejor saldo de goles. Si persiste el empate, se jugarán 30 minutos extra y, si es necesario, se definirán por penales.
+                    El campeón de la Copa Libertadores es reconocido como el mejor club de Sudamérica y clasifica al Mundial de Clubes de la FIFA. En 2018, se anunció que, a partir de 2019, la final se jugaría en un solo partido en un estadio neutro. <br>
+                    <br>
+                     <button onclick="mostrarMenos(2)">leer menos</button></p>
+            </article>
+            <article id="noticia-3">
+                <h3>historia:</h3>
+                <p class="conteudo-curto">La Copa Libertadores de América es una competencia de fútbol profesional de América del Sur, organizada por la CONMEBOL... <button onclick="mostrarMais(3)">leer más</button></p>
+                <p class="conteudo-completo" style="display: none;">
+                    La Copa Libertadores de América es una competencia de fútbol profesional de América del Sur, organizada por la CONMEBOL, la entidad más importante del continente. Se fundó en 1960, inicialmente con siete equipos participantes: Peñarol (Uruguay), Olimpia (Paraguay), San Lorenzo (Argentina), Universidad de Chile, Jorge Wilstermann (Chile), Bahia (Brasil) y Millonarios (Colombia).
+                    <br>
+                    El formato de las primeras ediciones consistía en una fase de grupos seguida de eliminatorias. Muchas veces, el campeón del año anterior ni siquiera pasaba por la fase inicial, comenzando la competencia directamente en las semifinales, lo que facilitaba la defensa de su título en comparación con el formato actual. La competencia se destacaba por su intensidad y la rivalidad entre los clubes, reflejando las tradiciones y la cultura de cada país.
+
+                     <button onclick="mostrarMenos(3)">leer menos</button></p>
+            </article>
+        </section>
+        <section id="about">
+            <h2>Campeones y subcampeones:</h2>
+            <p> <pre>
+                Año	Campeón		                 Subcampeón
+                <br>
+                1960	Peñarol		                Olimpia
+                1961	Peñarol		                Palmeiras
+                1962	Santos		                Peñarol
+                1963	Santos		                Boca Juniors
+                1964	Independiente	                Nacional
+                1965	Independiente	                Peñarol
+                1966	Peñarol		                River Plate
+                1867	Racing		                Nacional
+                1968	Estudiantes		        Palmeiras
+                1969	Estudiantes	                Nacional
+                1970	Estudiantes		        Peñarol
+                1971	Nacional		        Estudiantes
+                1972	Independiente	                Universitario
+                1973	Independiente	                Colo-Colo
+                1974	Independiente	                Sao Paulo
+                1975	Independiente	                Unión Española
+                1976	Cruzeiro		        River Plate
+                1977	Boca Juniors		        Cruzeiro
+                1978	Boca Juniors		        Deportivo Cali
+                1979	Olimpia		                Boca Juniors
+                1980	Nacional		        Internacional
+                1981	Flamengo		        Cobreloa
+                1982	Peñarol		                Cobreloa
+                1983	Grêmio		                Peñarol
+                1984	Independiente	                Grêmio
+                1985	Argentinos Jrs	                América de Cali
+                1986	River Plate		        América de Cali
+                1987	Peñarol		                América de Cali
+                1988	Nacional		        Newell's Old Boys
+                1989	Atlético Nacional	        Olimpia
+                1990	Olimpia		                Barcelona de Guayaquil
+                1991	Colo-Colo		        Olimpia
+                1992	São Paulo		        Newell's Old Boys
+                1993	São Paulo		        Universidad Católica
+                1994	Vélez			        São Paulo
+                1995	Grêmio		                Atlético Nacional
+                1996	River Plate		        América de Cali
+                1997	Cruzeiro		        Sporting Cristal
+                1998	Vasco da Gama	                Barcelona
+                1999	Palmeiras		        Deportivo Cali
+                2000	Boca Juniors		        Palmeiras
+                2001	Boca Juniors		        Cruz Azul
+                2002	Olimpia		                São Caetano
+                2003	Boca Juniors		        Santos
+                2004	Once Caldas		        Boca Juniors
+                2005	São Paulo		        Atlético Paranaense
+                2006	Internacional		        São Paulo
+                2007	Boca Juniors		        Grêmio
+                2008	Liga de Quito	                Fluminense
+                2009	Estudiantes	        	Cruzeiro
+                2010	Internacional	    	        Guadalajara
+                2011	Santos		                Peñarol
+                2012	Corinthians		        Boca Juniors
+                2013	Atlético Mineiro	        Olimpia
+                2014	San Lorenzo		        Nacional
+                2015	River Plate		        Tigres
+                2016	Atlético Nacional	        Independiente del Valle
+                2017	Grêmio		                Lanús
+                2018	River Plate		        Boca Juniors
+                2019	Flamengo		        River Plate
+                2020	Palmeiras		        Santos
+                2021	Palmeiras		        Flamengo
+                2022	Flamengo		        Atlético Paranaense
+                2023	Fluminense		        Boca Juniors
+                2024    Botafogo                        Atletico-MG 
+                </pre></p>
+               
+        </section>
+        <section id="contact">
+            <h2>Acceso</h2>
+            <form>
+                <label for="name">Nombre:</label>
+                <input type="text" id="name" name="name" required>
+                <label for="email">Correo electrónico:</label>
+                <input type="email" id="email" name="email" required>
+                <label for="message">Mensaje:</label>
+                <textarea id="message" name="message" required></textarea>
+                <button type="submit">para enviar</button>
+            </form>
+            <P><br></P>
+            <p><br></p>
+            
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2024 Jornal Libertadores de América. Reservados todos los derechos.</p>
+    </footer>
+    <script src="scripts.js"></script>
+</body>
+</html>
